@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Other Tabs Closer",
+    "version": "1.0",
+    "description": "Closes other tabs in current window. Replicates the functionality that was removed from Chrome.",
+    "author": "Vahur Varris",
+    "homepage_url": "https://github.com/vahurvar/close-other-tab-plugin",
+    "icons": {
+      "128": "icon.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png"
+      },
+      "background": {
+        "scripts": ["background.js"]
+      },
+      "permissions": ["tabs"]
+  }
